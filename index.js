@@ -1,7 +1,7 @@
 // This file is the entry point for the bot.
 
 const DiscordBot    = require('./DiscordBot')
-const config        = require('.src/data/client.json')
+const config        = require('./data/client.json')
 
 // Start the actual bot
 let discordBot = new DiscordBot();
